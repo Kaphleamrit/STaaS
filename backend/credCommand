@@ -1,0 +1,5 @@
+docker build -t backend . 
+
+docker run -v C:\Users\kaphley\Downloads:/zap/wrk/ -e AWS_ACCESS_KEY_ID=xxxxxxxxxxxxxxxxx -e AWS_SECRET_ACCESS_KEY=xxxxxxxxxx backend
+
+{"url": "https://www.amritkafle.com", "email": "kaphleyy@gmail.com"}    
